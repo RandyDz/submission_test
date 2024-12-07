@@ -1,0 +1,7 @@
+gdown==5.2.0
+matplotlib==3.8.0
+numpy==2.1.3
+pandas==2.2.3
+protobuf==5.29.1
+seaborn==0.13.2
+streamlit==1.40.2
