@@ -58,10 +58,10 @@ def create_seller_df(df) :
 
 
 df=pd.read_csv('dashboard/order_payment_df.csv')
-customer_df=pd.read_csv('customer_df.csv')
-order_item_products_df=pd.read_csv('orderitem_products_df.csv')
-orderpayment_ordercustomer_df=pd.read_csv('orderpayment_ordercustomer_df.csv')
-orderitems_orders_df=pd.read_csv('orderitems_orders_df.csv')
+customer_df=pd.read_csv('dashboard/customer_df.csv')
+order_item_products_df=pd.read_csv('dashboard/orderitem_products_df.csv')
+orderpayment_ordercustomer_df=pd.read_csv('dashboard/orderpayment_ordercustomer_df.csv')
+orderitems_orders_df=pd.read_csv('dashboard/orderitems_orders_df.csv')
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 df.sort_values(by="order_purchase_timestamp", inplace=True)
 df.reset_index(inplace=True)
