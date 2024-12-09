@@ -57,7 +57,7 @@ def create_seller_df(df) :
     return monthly_seller_df
 
 
-df=pd.read_csv('order_payment_df.csv')
+df=pd.read_csv('dashboard/order_payment_df.csv')
 customer_df=pd.read_csv('customer_df.csv')
 order_item_products_df=pd.read_csv('orderitem_products_df.csv')
 orderpayment_ordercustomer_df=pd.read_csv('orderpayment_ordercustomer_df.csv')
